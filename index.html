@@ -1,16 +1,97 @@
-<html>
-    <head>
-        <title> Nabi</title>
-        <link rel = "stylesheet" type = "text/css" href = "styles.css">
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>doceria Nabi</title>
+    <div style="text-align: center;">
+        <img src="logonabi.png" alt="" width="200" height="200">
+      </div>
+      <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <div class="centralizado">   
+         <title>Cadastro da Doceria Nabi:</title>
+        </div>
+        <style>
+            /* Estilos CSS para melhorar a aparência do formulário */
+            body {
+                font-family: Arial, sans-serif;
+            }
+            form {
+                max-width: 400px;
+                margin: 0 auto;
+            }
+            label {
+                display: block;
+                margin-bottom: 10px;
+            }
+            input {
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 20px;
+            }
+        </style>
     </head>
     <body>
-        <img src ="logonabi.png" width="50%">
+        <h1>Cadastro da Doceria Nabi</h1>
+        <form action="processa_cadastro.php" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+    
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" required>
+    
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="endereco">Endereço:</label>
+            <input type="text" id="endereco" name="endereco" required>
+    
+            <input type="submit" value="Cadastrar">
+        </form>
+    </body>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fdf7eb;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff9ef;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(44, 36, 36, 0.1);
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
         <h1>menu</h1>
         <li><a href = "cardapio.html" >cardapio</a></li>
         <li><a href = "encomendas.html" >encomendas</a></li>
         <li><a href = "delivery.html" >delivery</a></li>
         <li><a href = "kitfesta.html" >kit festa</a></li>
         <li><a href = "novidades.html" >novidades</a></li>
-        <li><a href = "cadastro.html" >cadastre-se</a></li>
-    </body>
+        <li><a href = "receitas.html" >cadastre-se</a></li>
+    
+    </style>
+</head>
+<body>
+    <div class="image-container"> 
+        <img src="brigadeiro2.jfif" alt="" width="200" height="300">
+        <img src="brownie.jfif" alt="" width="200" height="300">
+        <img src="torta de morango.jfif" alt="" width="200" height="300">
+        <img src="Churros.jfif" alt="" width="200" height="300">
+        <img src="maça.jfif" alt="" width="200" height="300">
+        <img src="tartaoreo.jfif" alt="" width="200" height="300">
+    </div>
+</body>
 </html>
+       
+    
