@@ -3,56 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cardápio de Doces</title>
+    <title>Cardápio do Restaurante</title>
     <style>
-        /* Estilos gerais */
         body {
             font-family: Arial, sans-serif;
-            background-color: #f9f9f9;
+            background-color: #fff9ef;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
         }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
+        .menu-container {
+            background-color: #fff9ef;
             padding: 20px;
-            background-color: #fff;
             border-radius: 5px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
         }
-        h1 {
-            text-align: center;
-            color: #333;
+        .menu-item {
+            margin-bottom: 20px;
         }
-        ul {
-            list-style-type: none;
-            padding: 0;
+        .menu-item img {
+            max-width: 100%;
+            border-radius: 5px;
         }
-        li {
-            margin-bottom: 10px;
+        .menu-item h2 {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .menu-item p {
+            font-size: 14px;
+            color: #000000;
+        }
+        .menu-item span {
+            font-weight: bold;
+            color: #000000;
+        }
+        .linha{
+            display: flex;
+            justify-content: space-between;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Cardápio de Doces</h1>
-        <ul>
-            <li>Bolo de chocolate</li>
-            <li>Brigadeiro</li>
-            <li>Beijinho</li>
-            <li>Cupcake</li>
-            <li>Torta de limão</li>
-            <li>Pudim</li>
-            <li>Churros</li>
-            <li>Palha italiana</li>
-            <li>Trufa</li>
-            <li>Quindim</li>
-            <li>Alfajor</li>
-            <li>Macaron</li>
-            <li>Doces finos variados</li>
-            <li>Salgados (para complementar)</li>
-            <li>Café</li>
-            <li>Chá</li>
-            <li>Refrigerante</li>
-        </ul>
+   
+    <div class="menu-container">
+        <div class="menu-item">
+            <img src="brigadeiro.jfif" alt="Prato 1">
+            <h2>brigadeiro com morango</h2>
+            <p> 6 unidades de pequenas tortilhas de brigadeiro com morango.</p>
+            <span>R$ 25,00</span>
+        </div>
+
+        <div class="menu-item">
+            <img src="brigadeiro1.jfif" alt="Prato 2">
+            <h2> brigadeiros sortidos</h2>
+            <p>30 unidades de brigadeiros de diferentes sabores.</p>
+            <span>R$ 30,00</span>
+        </div>
+        <div class="menu-item">
+            <img src="brigadeiro2.jfif" alt="Prato 3">
+            <h2> brigadeiros gourmet</h2>
+            <p>24 unidades de brigadeiros de diferentes sabores especializados.</p>
+            <span>R$ 30,00</span>
+        </div>
+        <div class="menu-item">
+            <img src="Churros.jfif" alt="Prato 4">
+            <h2> churros</h2>
+            <p> churros com diferentes sabores como; brigadeiro, nutella, doce de leite e chocolate branco.</p>
+            <span>R$ 8,00</span>
+        </div>
+        <div class="menu-item">
+            <img src="morangoooo.jfif" alt="Prato 5">
+            <h2> torta de morango</h2>
+            <p> 20 unidades de minis tortas de morangos.</p>
+            <span>R$ 60,00</span>
+        </div>
+        <div class="menu-item">
+            <img src="brigadeiro2.jfif" alt="Prato 6">
+            <h2> maça do amor</h2>
+            <p> maça do amor caramelizadas.</p>
+            <span>R$7,00</span>
+        </div>
+        <div class="menu-item">
+            <img src="tartaoreo.jfif" alt="Prato 7">
+            <h2> torta de oreo</h2>
+            <p> torta media de oreo e morango.</p>
+            <span>R$55,00</span>
+        </div>
+        <div class="menu-item">
+            <img src="torta de morango.jfif" alt="Prato 8">
+            <h2> torta de morango</h2>
+            <p> torta de morango tamanho medio.</p>
+            <span>R$60,00</span>
+        </div>
     </div>
 </body>
 </html>
+
+   

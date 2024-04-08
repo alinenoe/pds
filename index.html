@@ -5,14 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>doceria Nabi</title>
     <div style="text-align: center;">
-        <img src="logonabi.png" alt="" width="200" height="200">
-      </div>
-      <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <div class="centralizado">   
-         <title>Cadastro da Doceria Nabi:</title>
-        </div>
+        <img src="logonabi.png" alt="" width="400" height="400">
+      
         <style>
             /* Estilos CSS para melhorar a aparência do formulário */
             body {
@@ -31,27 +25,18 @@
                 padding: 10px;
                 margin-bottom: 20px;
             }
-        </style>
-    </head>
-    <body>
-        <h1>Cadastro da Doceria Nabi</h1>
-        <form action="processa_cadastro.php" method="post">
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required>
-    
-            <label for="telefone">Telefone:</label>
-            <input type="tel" id="telefone" name="telefone" required>
-    
-            <label for="email">E-mail:</label>
-            <input type="email" id="email" name="email" required>
-    
-            <label for="endereco">Endereço:</label>
-            <input type="text" id="endereco" name="endereco" required>
-    
-            <input type="submit" value="Cadastrar">
-        </form>
-    </body>
-    <style>
+            .navbar{
+                margin: auto;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                padding: 1rem 0;
+                width: 800px;
+            }
+            .navbar a{
+                text-decoration: none;
+            }
+
         
         body {
             font-family: Arial, sans-serif;
@@ -59,7 +44,7 @@
             margin: 0;
             padding: 0;
         }
-        .container {
+        .image-container {
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
@@ -71,18 +56,16 @@
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>menu</h1>
-        <li><a href = "cardapio.html" >cardapio</a></li>
-        <li><a href = "encomendas.html" >encomendas</a></li>
-        <li><a href = "delivery.html" >delivery</a></li>
-        <li><a href = "kitfesta.html" >kit festa</a></li>
-        <li><a href = "novidades.html" >novidades</a></li>
-        <li><a href = "receitas.html" >cadastre-se</a></li>
+    <div class="navbar">
+        <h1></h1>
+        <a href = "cardapio.html" >cardapio</a>
+        <a href = "cadrastro.html" >cadastre-se</a>
+        <a href = "delivery.html" >delivery</a>
+        <a href = "kitfesta.html" >kit festa</a>
+        <a href = "novidades.html" >novidades</a>
+        <a href = "receitas.html" >receitas</a>
     
-    </style>
-</head>
-<body>
+    </div>
     <div class="image-container"> 
         <img src="brigadeiro2.jfif" alt="" width="200" height="300">
         <img src="brownie.jfif" alt="" width="200" height="300">
